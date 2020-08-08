@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div id="logo" class="pull-left visible-lg visible-md">
+                    <a href="index.html">
+                        <div id="logo-img" alt="Logo Image"></div>
+                    </a>
+                </div>
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>David Chan China Bistore</h1></a>
+                    <p>
+                        <img src="images/star.jpg" alt="Kosher certification" width="30px" height="25px">
+                        <span>Kosher Certified</span>
+                    </p>
+                   
+                </div>
+                <nav class="navbar navbar-dark" id="navbar-button">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                      <span class="navbar-toggler-icon"></span>
+                      <span class="sr-only">Toggle Nab </span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </nav>
+            </div>
+        </div>
+      </nav>
+  </header>  
+    
+
+<!--bootstrap js-->
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>   
+</body>
+</html>
